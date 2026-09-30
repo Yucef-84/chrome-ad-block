@@ -1,0 +1,12 @@
+{
+  "ubol": {
+    "url": "https://github.com/uBlockOrigin/uBOL-home.git",
+    "commit": "c417cb10492b4e04ef27af25c938575270246e39",
+    "version": "2026.926.2202",
+    "ublockCommit": "01092d95dbc7d91599a5ad017d5b98aba1118659"
+  },
+  "youslist": {
+    "url": "https://github.com/yous/YousList.git",
+    "commit": "3e6249c3e4dd9ffaba77f48be809021e58496fa2"
+  }
+}

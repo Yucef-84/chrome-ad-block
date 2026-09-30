@@ -1,0 +1,7 @@
+vendor/
+.cache/
+dist/
+output/
+node_modules/
+.playwright/
+.playwright-cli/

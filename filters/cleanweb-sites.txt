@@ -1,0 +1,11 @@
+! Title: 클린웹 사이트 보완 필터
+! License: GPL-3.0-or-later
+! Evidence: DCInside public list HTML inspected 2026-09-30.
+! Only explicit advertising containers; editorial sidebar stays visible.
+gall.dcinside.com##[data-ad-audit="LIST_AD_LEFT"]
+gall.dcinside.com###ad_floating
+gall.dcinside.com##.ad_bottom_list
+gall.dcinside.com##.rightbanner1:has(ins.adsbygoogle)
+gall.dcinside.com###ad-layer
+gall.dcinside.com###hdline_ban:has(ins.adsbygoogle)
+||gall.dcinside.com/dc_ad_*_JH.php^

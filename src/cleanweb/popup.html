@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>클린웹</title><link rel="stylesheet" href="ui.css"></head>
+<body class="popup">
+  <header class="brand"><img src="../img/icon_64.png" alt=""><strong>클린웹</strong><span class="badge">광고 없이 가볍게</span></header>
+  <section class="card"><div id="hostname">현재 사이트 확인 중…</div><p id="mode" class="muted">광고 차단 상태를 확인하고 있습니다.</p><label class="row toggle"><span>현재 사이트 광고 차단</span><input id="site-toggle" type="checkbox" role="switch" disabled></label></section>
+  <div class="stack"><button class="primary" id="pick" disabled>남은 광고 숨기기 <span aria-hidden="true">↗</span></button><button id="manage">내가 숨긴 항목 관리</button><button id="reload" disabled>페이지 새로고침</button></div>
+  <p class="status" id="feedback" role="status" aria-live="polite"></p>
+  <footer><span class="muted" id="korean-status">한국 사이트 필터 확인 중…</span><button class="text-button" id="settings">설정</button></footer>
+  <script type="module" src="popup.js"></script>
+</body></html>
